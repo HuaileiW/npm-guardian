@@ -43,7 +43,7 @@ cargo test --release
 ### Threat Intelligence
 ```bash
 # Generate threat feed (when scripts exist)
-python threat-intel/scripts/generate.py
+node threat-intel/scripts/generate.js
 
 # Run threat intel tests
 cargo test -p npm-guardian-scanner threat_intel
