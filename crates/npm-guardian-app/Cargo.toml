@@ -1,0 +1,8 @@
+[package]
+name = "npm-guardian-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "npm-guardian-app"
+path = "src/main.rs"

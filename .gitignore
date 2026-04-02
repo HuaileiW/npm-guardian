@@ -1,0 +1,28 @@
+# Existing project preference
+doc/**
+
+# Rust build artifacts
+target/
+**/target/
+
+# Rust/Cargo temporary and backup files
+**/*.rs.bk
+
+# Caches
+.cache/
+cache/
+**/.cache/
+
+# Generated data artifacts
+generated/
+data/generated/
+
+# Local temporary directories
+tmp/
+.temp/
+.tmp/
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/

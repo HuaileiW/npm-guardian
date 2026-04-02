@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "crates/npm-guardian-scanner",
+    "crates/npm-guardian-app",
+]
+resolver = "2"

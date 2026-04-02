@@ -1,0 +1,8 @@
+[package]
+name = "npm-guardian-scanner"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "npm_guardian_scanner"
+path = "src/lib.rs"
